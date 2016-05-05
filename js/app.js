@@ -8,7 +8,7 @@ $(function() {
 		else {
 			for (var i=1; i <= integer; i++) {
 				if (i % 3 === 0 && i % 5 === 0) {
-					$('body').append("<p><b>fizz buzz</b></p><br>");
+					$('body').append("<p><b>fizz buzz</b></p>");
 				}
 				else if (i % 3 === 0) {
 					$('body').append("<p>fizz</p>");
